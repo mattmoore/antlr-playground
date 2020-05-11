@@ -1,3 +1,5 @@
+all: antlr compile
+
 antlr:
 	antlr UnicodeClasses.g4
 	antlr KotlinLexer.g4
